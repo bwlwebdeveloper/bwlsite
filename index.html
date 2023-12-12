@@ -20,37 +20,22 @@ body {
 <body>
 <h2 style="color:white" align="center">we create the web u neddd""""""upload home"</h2>
 
-<h2 class="w3-center">Manual Slideshow</h2>
+<script src="https://www.w3schools.com/lib/w3.js"></script> <body>
 
-<div class="w3-content w3-display-container">
-  <img class="mySlides" src="IMG_1702311069727.png " style="width:100%">
-  <img class="mySlides" src="explaining-code.jpg" style="width:100%">
-  <img class="mySlides" src="0_4DpFVUP_VfkhzSIL.png" style="width:100%">
-  <img class="mySlides" src="3e58f735-7d82-4397-b99d-ec3e66b99cc1.jpg" style="width:100%">
+<h2>Testing W3.JS in HTML</h2>
 
-  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
-</div>
+<p>Images with class="nature" will be in the slideshow:</p>
 
-<script>
-var slideIndex = 1;
-showDivs(slideIndex);
+<img class="nature" src="IMG_1702311069727.png " width="100%">
+ <img class="nature"src="explaining-code.jpg" width="100%">
 
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
+<img class="nature"src="0_4DpFVUP_VfkhzSIL.png"width="100%">
 
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  if (n > x.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
-  }
-  x[slideIndex-1].style.display = "block";  
-}
-</script>
+<img class="nature"src="0_4DpFVUP_VfkhzSIL.png"width="100%">
+
+<script> w3.slideshow(".nature", 1000);
+ </script>
+
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
 <body>
@@ -95,22 +80,6 @@ BWL web developer</h1>
   </div> </div>
   <hr></hr>
   <h6 style="color:white" align="center">We create a best for your need BWL(backed with love⁠♡)</h6>
-  <script src="https://www.w3schools.com/lib/w3.js"></script> <body>
-
-<h2>Testing W3.JS in HTML</h2>
-
-<p>Images with class="nature" will be in the slideshow:</p>
-
-<img class="nature" src="IMG_1702311069727.png " width="100%">
- <img class="nature"src="explaining-code.jpg" width="100%">
-
-<img class="nature"src="0_4DpFVUP_VfkhzSIL.png"width="100%">
-
-<img class="nature"src="0_4DpFVUP_VfkhzSIL.png"width="100%">
-
-<script> w3.slideshow(".nature", 1000);
- </script>
-
 </body>
 </html>
 
